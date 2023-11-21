@@ -11,7 +11,7 @@ def A():
     turtle.right(120)
     turtle.forward(34)
     turtle.back(17)
-    turtle.left(60)  # zuruck nach rechts fur den nachsten Buchstaben
+    turtle.left(60)
     turtle.up()
     turtle.forward(21)
     turtle.down()

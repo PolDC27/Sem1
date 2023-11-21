@@ -1,4 +1,6 @@
-from App.Run import run
+from App.Run import alegere
+def main():
+    alegere()
 
-run()
+main()
 

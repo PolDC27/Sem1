@@ -1,11 +1,15 @@
-import turtle
 from Repository.Buchstaben import dict
 from Repository.costom_commands import *
 
 
 def deseneaza_cuvant(cuvant):
+        turtle.up()
+        turtle.goto(-200, 0)
+        turtle.down()
         for ch in cuvant:
                 dict[ch]()
+
+
 
 def deseneaza_manual():
         turtle.listen()
@@ -15,9 +19,9 @@ def deseneaza_manual():
         turtle.onkey(d, 'd')
         turtle.onkey(f, 'f')
         turtle.onkey(g, 'g')
-        with open("keys.txt", "a") as F:
-                F.write("\n")
-        turtle.exitonclick()
+        turtle.onkey(close_window, 'Return')
+        turtle.done()
+
 
 
 

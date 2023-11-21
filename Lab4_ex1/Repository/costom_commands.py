@@ -34,3 +34,5 @@ def g():
         turtle.down()
         f.write("g ")
 
+def close_window():
+    turtle.bye()
