@@ -36,3 +36,21 @@ def g():
 
 def close_window():
     turtle.bye()
+
+def g2():
+    turtle.down()
+
+def f2():
+    turtle.up()
+
+def a2():
+    turtle.left(45)
+
+def d2():
+    turtle.right(45)
+
+def s2():
+    turtle.backward(10)
+
+def w2():
+    turtle.forward(10)
